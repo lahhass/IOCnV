@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+     />
+    
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <TableRow android:gravity="center" >
+
+
+            <TextView
+                android:id="@+id/password_show"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:text=" " />
+        </TableRow>
+    </TableLayout>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+     />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#a9a9a9"
+
+        android:layout_gravity="center"
+        >
+
+        <TableRow android:gravity="center"
+            android:background="#a9a9a9"
+            android:layout_margin="0.5dip">
+
+            <TextView
+                android:id="@+id/view1"
+                android:background="#ffffff"
+                android:lines="2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="#000000"
+                android:layout_margin="1dip"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="1" />
+
+
+
+            <TextView
+                android:id="@+id/view2"
+                android:lines="2"
+                android:background="#ffffff"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="#000000"
+                android:layout_margin="1dip"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="2" />
+
+
+            <TextView
+                android:id="@+id/view3"
+                android:lines="2"
+                android:background="#ffffff"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="#000000"
+                android:layout_margin="1dip"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="3" />
+
+
+        </TableRow>
+
+
+        <TableRow android:gravity="center"
+            android:background="#a9a9a9"
+            android:layout_margin="0.5dip">
+
+            <TextView
+                android:id="@+id/view4"
+                android:lines="2"
+                android:background="#ffffff"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="#000000"
+                android:layout_margin="1dip"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="4" />
+
+
+
+            <TextView
+                android:id="@+id/view5"
+                android:background="#ffffff"
+                android:lines="2"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="#000000"
+                android:layout_margin="1dip"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="5" />
+
+
+            <TextView
+                android:id="@+id/view6"
+                android:lines="2"
+                android:background="#ffffff"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="#000000"
+                android:layout_margin="1dip"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="6" />
+
+
+        </TableRow>
+
+
+        <TableRow android:gravity="center"
+            android:background="#a9a9a9"
+            android:layout_margin="0.5dip">
+
+            <TextView
+                android:id="@+id/view7"
+                android:lines="2"
+                android:background="#ffffff"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="#000000"
+                android:layout_margin="1dip"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="7" />
+
+
+
+            <TextView
+                android:id="@+id/view8"
+                android:lines="2"
+                android:background="#ffffff"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="1dip"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="8" />
+
+
+            <TextView
+                android:id="@+id/view9"
+                android:lines="2"
+                android:background="#ffffff"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="#000000"
+                android:layout_margin="1dip"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:text="9" />
+
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_margin="0.5dip"
+            android:background="#a9a9a9"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/del"
+                android:lines="2"
+                android:background="#c0c0c0"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="1dip"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:text="Del"
+                android:textSize="25sp" />
+
+
+            <TextView
+                android:id="@+id/view0"
+                android:lines="2"
+                android:background="#ffffff"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="1dip"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/replay"
+                android:lines="2"
+                android:background="#c0c0c0"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textColor="#000000"
+                android:layout_margin="1dip"
+                android:gravity="center"
+                android:text="▶"
+                android:textSize="25sp" />
+
+
+
+        </TableRow>
+
+
+    </TableLayout>
+    <View
+    android:layout_width="match_parent"
+    android:layout_height="10dp"
+     />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         >
+
+        <TableRow android:gravity="center">
+
+            <Button
+                android:id="@+id/black"
+                android:layout_width="106dp"
+                android:layout_height="60dp"
+                android:background="#000000"
+                android:text="Black"
+                android:textColor="#ffffff" />
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+             />
+            
+            <com.example.iocnv.model.MyProgress
+                android:id="@+id/bar"
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_width="106dp"
+                android:layout_height="wrap_content"
+                android:max="100" />
+
+            <View
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+             />
+            
+            <Button
+                android:id="@+id/white"
+                android:layout_width="106dp"
+                android:layout_height="60dp"
+                android:background="#C0C0C0"
+                android:text="White"
+                android:textColor="#000000" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
